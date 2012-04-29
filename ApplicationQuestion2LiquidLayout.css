@@ -1,0 +1,40 @@
+
+
+body {  }
+
+#header
+{
+	height: 50px;
+	background-color: #ff0000;
+	margin-bottom: 10px;
+}
+
+#column1
+{ 
+  float:left;
+  width: 46%;
+  background-color: #00ff00;
+  margin-bottom: 10px;  
+}
+
+#space
+{
+ float:left;
+ width: 8%;
+ height: 1px;
+ }
+ 
+#column2
+{ 
+  float:left;
+  width: 46%;
+  background-color: #0000ff;
+  margin-bottom: 10px;  
+}
+
+#footer
+{
+ clear: both;
+ height: 50px;
+ background-color: #aa00aa
+ }
