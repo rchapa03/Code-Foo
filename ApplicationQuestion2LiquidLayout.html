@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	
+    <title>IGNs Code Foo Liquid Layout</title>
+	<link rel="stylesheet" type="text/css" href="ApplicationQuestion2LiquidLayout.css" />
+	<script type="text/javascript">
+	function reSize1()
+	{
+	window.resizeTo(1024,768);
+	}
+	function reSize2()
+	{
+	window.resizeTo(1680,1050);
+	}
+	function openWin1()
+	{
+	window.open("ApplicationQuestion2LiquidLayout.html",' ','width=1024,height=768');
+	}
+	function openWin2()
+	{
+	window.open("ApplicationQuestion2LiquidLayout.html",' ','width=1680,height=1050');
+	}		
+	</script>    
+    
+  </head>
+  <body>
+  <div id="header"></div>
+  <div id="column1">
+  	   <h3>
+	   Hello IGN! Welcome to my First Simple Liquid Layout!!
+  	   </h3>
+	   <p>
+	   Thanks for taking the time to check out my first simple liquid layout ever! Learning how to put this together has become quite an experience! I hope to have more learning experiences with you in the near future! The basic idea of a liquid layout is that all the information contained inside a webpage will be visible despite the size of the users window. Instead of the webpage having a set frame(no matter what, elements and words always stay in the same place), a liquid layout uses percentages of the current browsers window size to maintain the content within the window size. In other words, elements and words can adjust and don't stay in the same place(or their place largely depends on the window size, screen resolution, etc). Liquid layouts are especially useful today since mobile computing has become increasingly popular. Smart phones, tablets, laptops, desktops, and game consoles are just a few reasons why using a liquid layout is important. All these different devices potentially have a different window size. By using a liquid layout, you can be reassured that all your content will display correctly in each of these devices. 	
+	   </p>
+	   <button onclick="reSize1()">Resize window to 1024x768</button>
+  	   <button onclick="reSize2()">Resize window to 1680x1050</button>
+  </div>
+  <div id="space"></div>
+  <div id="column2">
+  	   <p>
+	   PLEASE NOTE: The buttons that cause the resizing or new window to open were implemented in JavaScript. If you are using the Chrome or Opera browser, please use the buttons in the blue column to open a new window. This was done because Chrome and Opera no longer support the window.resizeto() function. Everyone else can use the buttons in the green column to resize their window to the appropriate resolutions. Alternatively, you can just adjust the window manually by clicking on the corner or side of your window and drag it anywhere to see the liquid layout in action. 	  
+	   </p>
+	   <button onclick="openWin1()">Click to open new window 1024x768</button>
+  	   <button onclick="openWin2()">Click to open new window 1680x1050</button>
+  </div>
+  <div id="footer"></div>  
+  </body>
+</html>
